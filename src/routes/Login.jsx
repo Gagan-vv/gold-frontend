@@ -15,9 +15,9 @@ const Login = () => {
           <input type="text" className="username" placeholder="Username" />
           <h3 className="password-ttle">Password</h3>
           <input type="text" className="password" placeholder="Password" />
-          <a href="/register" className="reg-link">
+          <Link to="/register" className="reg-link">
             <h4 className="login-info">Register</h4>
-          </a>
+          </Link>
           <a href="/">
             <button className="login-btn">Login</button>
           </a>
