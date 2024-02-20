@@ -9,6 +9,7 @@ import ItemPage from "./routes/ItemPage.jsx";
 import WishList from "./routes/WishList.jsx";
 import Login from "./routes/Login.jsx";
 import Category from "./routes/Category.jsx";
+import Register from "./routes/Register.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/product/:id" element={<ItemPage/>}/>
         <Route path="/wish" element={<WishList/>}/>
         <Route path="/login" element={<Login/>}/>
+        <Route path="/register" element={<Register/>}/>
         <Route path="/category/:cat" element={<Category  />}/>
       </Routes>
     </Router>

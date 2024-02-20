@@ -663,18 +663,32 @@ input[type="search"]::-webkit-search-results-decoration {
 /* Login Page */
 .login{
   display: flex;
-  justify-content: center;
   height: 100vh;
-  flex-wrap: wrap;           /* NEW */
-  align-content: center;     /* NEW */
+  flex-wrap: wrap;           
   text-align: center;
+  align-items: center;
 }
 
-.login-logo{
-  width: 15vw;
-  padding-bottom: 30px;
+.auth-img{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.auth-data{
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-login{
+  width: 120%;
+}
 .login-title{
   font-weight: 400;
   align-items:center;
@@ -772,5 +786,4 @@ input[type="search"]::-webkit-search-results-decoration {
   margin-right: 8px;
   scale: 1.2;
   cursor: pointer;
-  
 }
